@@ -3,16 +3,16 @@ package com.my.thread.blockingQueue;
 import java.util.List;
 
 /**
- * @ClassName TrainTicket
+ * @ClassName student
  * @Description TODO
  * Author shengjunjie
  * Date 2019/6/27 10:32
  **/
-public class TrainTicket {
+public class CarStudent {
 
     private String name;//名称
 
-    private Integer siteCode;//数量
+    private Integer stuCode;//数量
 
 
     public String getName() {
@@ -23,12 +23,12 @@ public class TrainTicket {
         this.name = name;
     }
 
-    public Integer getSiteCode() {
-        return siteCode;
+    public Integer getStuCode() {
+        return stuCode;
     }
 
-    public void setSiteCode(Integer siteCode) {
-        this.siteCode = siteCode;
+    public void setStuCode(Integer stuCode) {
+        this.stuCode = stuCode;
     }
 }
 
